@@ -1,6 +1,6 @@
 from merchants.models import Merchants
 from django.forms import ModelForm
-
+"this is for feilds "
 class AddMerchatForm(ModelForm):
     class Meta:
         model = Merchants
